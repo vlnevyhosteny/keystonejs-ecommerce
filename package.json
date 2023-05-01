@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "An easy-to-use library built on KeystoneJS for managing and displaying product catalogs",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": "git@github.com:vlnevyhosteny/keystonejs-ecommerce.git",
   "author": "Vladimír Nevyhoštěný <vnevyhosteny@gmail.com>",
   "license": "MIT",

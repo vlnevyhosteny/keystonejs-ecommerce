@@ -1,0 +1,8 @@
+node_modules/
+.husky/
+.github/
+.vscode/
+src/
+.eslintrc
+.prettierrc.js
+tsconfig.json
