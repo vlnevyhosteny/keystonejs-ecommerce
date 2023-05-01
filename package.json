@@ -1,0 +1,31 @@
+{
+  "name": "keystonejs-ecommerce",
+  "version": "0.0.0",
+  "description": "An easy-to-use library built on KeystoneJS for managing and displaying product catalogs",
+  "main": "src/index.ts",
+  "repository": "git@github.com:vlnevyhosteny/keystonejs-ecommerce.git",
+  "author": "Vladimír Nevyhoštěný <vnevyhosteny@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --config .prettierrc.js './**/*.ts' --write",
+    "prepare": "husky install",
+    "lint": "eslint . --ext .ts",
+    "lint-fix": "eslint . --ext .ts --fix",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.2",
+    "@types/node": "^18.16.3",
+    "@typescript-eslint/eslint-plugin": "^5.59.1",
+    "@typescript-eslint/parser": "^5.59.1",
+    "chalk": "^5.2.0",
+    "eslint": "^8.39.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.8"
+  },
+  "dependencies": {
+    "typescript": "^5.0.4"
+  }
+}
