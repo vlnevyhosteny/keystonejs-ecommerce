@@ -2,10 +2,13 @@
   "name": "keystonejs-ecommerce",
   "version": "0.0.0",
   "description": "An easy-to-use library built on KeystoneJS for managing and displaying product catalogs",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "repository": "git@github.com:vlnevyhosteny/keystonejs-ecommerce.git",
   "author": "Vladimír Nevyhoštěný <vnevyhosteny@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "yarn": ">=1.22.10"
+  },
   "scripts": {
     "format": "prettier --config .prettierrc.js './**/*.ts' --write",
     "prepare": "husky install",
@@ -14,6 +17,10 @@
     "build": "tsc"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.7",
+    "semantic-release": "^19.0.5",
     "@tsconfig/recommended": "^1.0.2",
     "@types/node": "^18.16.3",
     "@typescript-eslint/eslint-plugin": "^5.59.1",
@@ -27,5 +34,22 @@
   },
   "dependencies": {
     "typescript": "^5.0.4"
+  },
+  "release": {
+    "branches": [
+      "main",
+      {
+        "name": "beta",
+        "channel": "main",
+        "prerelease": true
+      }
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ]
   }
 }
