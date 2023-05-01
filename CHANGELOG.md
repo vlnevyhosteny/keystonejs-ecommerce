@@ -1,3 +1,10 @@
+# [1.0.0-beta.3](https://github.com/vlnevyhosteny/keystonejs-ecommerce/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2023-05-01)
+
+
+### Bug Fixes
+
+* add build to release ([43eb749](https://github.com/vlnevyhosteny/keystonejs-ecommerce/commit/43eb74985c6b41ead6527fc34d3e35acee4c79d0))
+
 # [1.0.0-beta.2](https://github.com/vlnevyhosteny/keystonejs-ecommerce/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2023-05-01)
 
 
