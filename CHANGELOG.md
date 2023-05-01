@@ -1,3 +1,10 @@
+# [1.0.0-beta.2](https://github.com/vlnevyhosteny/keystonejs-ecommerce/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2023-05-01)
+
+
+### Bug Fixes
+
+* TypeScript publish ([0ee57fe](https://github.com/vlnevyhosteny/keystonejs-ecommerce/commit/0ee57feb5b0a27d2118c48d2d823e96e41ca3198))
+
 # 1.0.0-beta.1 (2023-05-01)
 
 
