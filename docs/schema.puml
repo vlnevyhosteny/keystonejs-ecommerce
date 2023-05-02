@@ -1,0 +1,84 @@
+@startuml schema
+
+class Product {
+    * id : String
+    --
+    name : String
+    description : String
+    price : Double
+    code : String
+    meta : JSON
+    --
+    createdAt : Date
+    updatedAt : Date
+}
+
+class ProductCategory {
+    * id : String
+    --
+    name : String
+    --
+    createdAt : Date
+    updatedAt : Date
+}
+
+class Tag {
+    * id : String
+    --
+    name : String
+    --
+    createdAt : Date
+    updatedAt : Date
+}
+
+class ProductPropertyType {
+    * id : String
+    --
+    name : String
+    --
+    createdAt : Date
+    updatedAt : Date
+}
+
+class ProductProperty {
+    * id : String
+    --
+    value : String
+    --
+    createdAt : Date
+    updatedAt : Date
+}
+
+class Image {
+    * id : String
+    --
+    url : String
+    --
+    createdAt : Date
+    updatedAt : Date
+}
+
+class User {
+    * id : String
+    --
+    username : String
+    password : String
+    isAdmin : Boolean
+    --
+    createdAt : Date
+    updatedAt : Date
+}
+
+Product "0..*" -- "1" ProductCategory
+
+ProductCategory "0..1" -- "0..*" ProductCategory
+
+Product "0..*" -- "0..*" Tag
+
+Product "1" -- "0..*" ProductProperty
+
+ProductProperty "0..*" -- "1" ProductPropertyType
+
+Product "0..*" -- "0..*" Image
+
+@enduml

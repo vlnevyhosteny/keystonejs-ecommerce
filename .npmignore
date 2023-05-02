@@ -6,3 +6,5 @@ src/
 .eslintrc
 .prettierrc.js
 tsconfig.json
+docs/
+out/
