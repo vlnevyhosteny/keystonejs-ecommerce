@@ -1,7 +1,13 @@
 import { product } from './product';
+import { user } from './user';
 
-export * from './product';
+export { Product } from './product';
 
 export const schema = {
-  Product: product,
+  lists: {
+    Product: product.schema(),
+    User: user.schema(),
+  },
+  product,
+  user,
 };
