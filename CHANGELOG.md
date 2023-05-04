@@ -1,3 +1,11 @@
+# [1.0.0-beta.5](https://github.com/vlnevyhosteny/keystonejs-ecommerce/compare/v1.0.0-beta.4...v1.0.0-beta.5) (2023-05-04)
+
+
+### Features
+
+* **docs:** initial schema diagram ([5e16a99](https://github.com/vlnevyhosteny/keystonejs-ecommerce/commit/5e16a9951e53994f60785dc0879f54b909a4393f))
+* product and user schema with auth module ([71397dc](https://github.com/vlnevyhosteny/keystonejs-ecommerce/commit/71397dcfd0ef71f84add160a31d1ad8e00e6bf1b))
+
 # [1.0.0-beta.4](https://github.com/vlnevyhosteny/keystonejs-ecommerce/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2023-05-01)
 
 
