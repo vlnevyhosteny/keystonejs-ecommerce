@@ -1,19 +1,11 @@
 import { list } from '@keystone-6/core';
-import {
-  BaseListTypeInfo,
-  MaybePromise,
-} from '@keystone-6/core/dist/declarations/src/types';
-import {
-  BaseAccessArgs,
-  AccessOperation,
-} from '@keystone-6/core/dist/declarations/src/types/config/access-control';
-import { decimal, json, text } from '@keystone-6/core/fields';
+import { float, json, text } from '@keystone-6/core/fields';
 import { auth } from '../auth';
 
 export interface Product {
   name: string;
   description?: string | undefined;
-  price: number;
+  price?: number | undefined;
   code?: string | undefined;
   meta?: Record<string, any> | undefined;
 }
@@ -30,9 +22,8 @@ const schema = () =>
         db: { isNullable: true },
         ui: { displayMode: 'textarea' },
       }),
-      price: decimal({
-        validation: { isRequired: true, min: '0' },
-        scale: 2,
+      price: float({
+        validation: { min: 0 },
         isIndexed: true,
       }),
       code: text(),
