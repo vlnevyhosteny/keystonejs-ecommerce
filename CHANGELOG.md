@@ -1,3 +1,10 @@
+# [1.0.0-beta.10](https://github.com/vlnevyhosteny/keystonejs-ecommerce/compare/v1.0.0-beta.9...v1.0.0-beta.10) (2023-05-05)
+
+
+### Features
+
+* readme ([1ad1579](https://github.com/vlnevyhosteny/keystonejs-ecommerce/commit/1ad15794d657243db7ac262917bcbfbb4577091e))
+
 # [1.0.0-beta.9](https://github.com/vlnevyhosteny/keystonejs-ecommerce/compare/v1.0.0-beta.8...v1.0.0-beta.9) (2023-05-05)
 
 
