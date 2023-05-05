@@ -1,3 +1,11 @@
+# 1.0.0 (2023-05-05)
+
+
+### Bug Fixes
+
+* **codeql:** language config ([b5c303f](https://github.com/vlnevyhosteny/keystonejs-ecommerce/commit/b5c303fd7a39081c40730a3ab7591c4957d31b9b))
+* semantic-release config ([76c18ec](https://github.com/vlnevyhosteny/keystonejs-ecommerce/commit/76c18ec106f789f743bb4743dd93edf52f929f16))
+
 # [1.0.0-beta.11](https://github.com/vlnevyhosteny/keystonejs-ecommerce/compare/v1.0.0-beta.10...v1.0.0-beta.11) (2023-05-05)
 
 
