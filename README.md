@@ -14,4 +14,78 @@ npm install --save keystonejs-ecommerce
 yarn add keystonejs-ecommerce
 ```
 
-## Documentation
+## Documentantion
+
+### Auth
+
+Auth function with predefined options for using with User list.
+
+#### withAuth
+
+It calls `createAuth` from `@keyjstone/core` with these predefined options:
+
+- listKey
+- identityField
+- secretField
+- sessionData
+
+```typescript
+// keystone.ts
+
+import { auth } from 'keystonejs-ecommerce';
+
+export default auth.withAuth(
+  config({
+    db, // ...db config
+    lists, // ...list config
+    session, // ...session config
+    // ...etc
+  }),
+);
+```
+
+#### createAuth
+
+Overrides `createAuth` from `@keyjstone/core` with optional parameters with predefined options (see [withAuth](#withauth)).
+
+```typescript
+// keystone.ts
+
+import { auth } from 'keystonejs-ecommerce';
+
+export default auth
+  .createAuth({
+    initFirstItem: { fields: ['username', 'password', 'isAdmin'] },
+  })
+  .withAuth(
+    config({
+      db, // ...db config
+      lists, // ...list config
+      session, // ...session config
+      // ...etc
+    }),
+  );
+```
+
+### Schema
+
+![schema diagram](docs/schema.png)
+
+To import list:
+
+```typescript
+// keystone.ts
+
+import { auth, schema } from 'keystonejs-ecommerce';
+
+export default auth.withAuth(
+  config({
+    // ...
+    lists: {
+      ...schema.lists,
+      // ...your lists
+    },
+    // ...
+  }),
+);
+```

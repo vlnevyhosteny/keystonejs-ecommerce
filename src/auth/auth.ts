@@ -13,4 +13,13 @@ const createAuth = (
 
 const { withAuth } = createAuth();
 
-export { withAuth, createAuth };
+export {
+  /**
+   * WithAuth function with predefined options.
+   */
+  withAuth,
+  /**
+   * Creates withAuth function with predefined options which can be overridden.
+   */
+  createAuth,
+};
