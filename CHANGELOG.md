@@ -1,3 +1,10 @@
+# [1.0.0-beta.7](https://github.com/vlnevyhosteny/keystonejs-ecommerce/compare/v1.0.0-beta.6...v1.0.0-beta.7) (2023-05-05)
+
+
+### Features
+
+* **auth:** createAuth function ([1d4000a](https://github.com/vlnevyhosteny/keystonejs-ecommerce/commit/1d4000afa6e6680328d4e945c2cbf69b3c2c1347))
+
 # [1.0.0-beta.6](https://github.com/vlnevyhosteny/keystonejs-ecommerce/compare/v1.0.0-beta.5...v1.0.0-beta.6) (2023-05-04)
 
 
