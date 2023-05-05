@@ -1,3 +1,10 @@
+# [1.0.0-beta.8](https://github.com/vlnevyhosteny/keystonejs-ecommerce/compare/v1.0.0-beta.7...v1.0.0-beta.8) (2023-05-05)
+
+
+### Bug Fixes
+
+* **auth:** createAuth export ([ab86971](https://github.com/vlnevyhosteny/keystonejs-ecommerce/commit/ab86971a1c0ab7a6d18fac02769ccfa9df1d102b))
+
 # [1.0.0-beta.7](https://github.com/vlnevyhosteny/keystonejs-ecommerce/compare/v1.0.0-beta.6...v1.0.0-beta.7) (2023-05-05)
 
 
