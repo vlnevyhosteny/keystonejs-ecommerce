@@ -1,7 +1,7 @@
 import { createAuth as baseCreateAuth } from '@keystone-6/auth';
 
 const createAuth = (
-  options?: Partial<Parameters<typeof baseCreateAuth>>,
+  options?: Partial<Parameters<typeof baseCreateAuth>[0]>,
 ): ReturnType<typeof baseCreateAuth> =>
   baseCreateAuth({
     ...options,
