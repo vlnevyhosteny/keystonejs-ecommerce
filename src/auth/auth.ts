@@ -1,10 +1,16 @@
-import { createAuth } from '@keystone-6/auth';
+import { createAuth as baseCreateAuth } from '@keystone-6/auth';
 
-const { withAuth } = createAuth({
-  listKey: 'User',
-  identityField: 'username',
-  secretField: 'password',
-  sessionData: 'id isAdmin',
-});
+const createAuth = (
+  options?: Partial<Parameters<typeof baseCreateAuth>>,
+): ReturnType<typeof baseCreateAuth> =>
+  baseCreateAuth({
+    ...options,
+    listKey: 'User',
+    identityField: 'username',
+    secretField: 'password',
+    sessionData: 'id isAdmin',
+  });
 
-export { withAuth };
+const { withAuth } = createAuth();
+
+export { withAuth, createAuth };
