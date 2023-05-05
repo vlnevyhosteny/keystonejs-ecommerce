@@ -1,3 +1,10 @@
+# [1.0.0-beta.6](https://github.com/vlnevyhosteny/keystonejs-ecommerce/compare/v1.0.0-beta.5...v1.0.0-beta.6) (2023-05-04)
+
+
+### Bug Fixes
+
+* prodcut price to be float instead of decimal to support sqlite ([aa39f79](https://github.com/vlnevyhosteny/keystonejs-ecommerce/commit/aa39f796be5b35b05f2bde74fc29bfd0a6232c71))
+
 # [1.0.0-beta.5](https://github.com/vlnevyhosteny/keystonejs-ecommerce/compare/v1.0.0-beta.4...v1.0.0-beta.5) (2023-05-04)
 
 
