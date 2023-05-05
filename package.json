@@ -1,0 +1,58 @@
+{
+  "name": "keystonejs-ecommerce",
+  "version": "1.0.0-beta.11",
+  "description": "An easy-to-use library built on KeystoneJS for managing and displaying product catalogs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "git@github.com:vlnevyhosteny/keystonejs-ecommerce.git",
+  "author": "Vladimír Nevyhoštěný <vnevyhosteny@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "yarn": ">=1.22.10"
+  },
+  "scripts": {
+    "format": "prettier --config .prettierrc.js './**/*.ts' --write",
+    "prepare": "husky install",
+    "lint": "eslint . --ext .ts",
+    "lint-fix": "eslint . --ext .ts --fix",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@keystone-6/auth": "^7.0.0",
+    "@keystone-6/core": "^5.2.0"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.7",
+    "@tsconfig/recommended": "^1.0.2",
+    "@types/node": "^18.16.3",
+    "@typescript-eslint/eslint-plugin": "^5.59.1",
+    "@typescript-eslint/parser": "^5.59.1",
+    "chalk": "^5.2.0",
+    "eslint": "^8.39.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.8",
+    "semantic-release": "^19.0.5",
+    "typescript": "^5.0.4"
+  },
+  "release": {
+    "branches": [
+      "main",
+      {
+        "name": "beta",
+        "channel": "main",
+        "prerelease": true
+      }
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ]
+  }
+}
