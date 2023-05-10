@@ -29,4 +29,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           HUSKY_SKIP_HOOKS: 1
-        run: npx -p node@18 -c "npx semantic-release"
+        run: npx -p node@18 -c 'semantic-release'
