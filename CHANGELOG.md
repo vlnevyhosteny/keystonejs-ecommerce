@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/vlnevyhosteny/keystonejs-ecommerce/compare/v1.0.0...v1.0.1) (2023-05-18)
+
+
+### Reverts
+
+* Revert "chore(deps-dev): bump semantic-release from 19.0.5 to 21.0.2 (#11)" (#13) ([15cbda7](https://github.com/vlnevyhosteny/keystonejs-ecommerce/commit/15cbda757d862e9f554739d869045498be225916)), closes [#11](https://github.com/vlnevyhosteny/keystonejs-ecommerce/issues/11) [#13](https://github.com/vlnevyhosteny/keystonejs-ecommerce/issues/13)
+* Revert "chore(deps-dev): bump semantic-release from 19.0.5 to 21.0.2 (#5)" (#10) ([8812937](https://github.com/vlnevyhosteny/keystonejs-ecommerce/commit/8812937535ab3e002a7e542ddac9c6161f41ec37)), closes [#5](https://github.com/vlnevyhosteny/keystonejs-ecommerce/issues/5) [#10](https://github.com/vlnevyhosteny/keystonejs-ecommerce/issues/10)
+
 # 1.0.0 (2023-05-05)
 
 
