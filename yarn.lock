@@ -1793,9 +1793,9 @@
   integrity sha512-7dqNYwG8gCt4hfg5PKgM7xLEcgSBcx/UgC92OMnhMmvAnq11QzDFPrxUkNR/u5kn17WWLZ8beZ4A3Qrz4pZcmQ==
 
 "@keystone-6/auth@^7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@keystone-6/auth/-/auth-7.0.0.tgz#9825e9a5a7f8e6e6e2b8da2d296dfe4a41d65dc0"
-  integrity sha512-qzKFJUfMOOnPNWupXUwTzJBjjA6Pn0axSO57dAlsjwHvRzVgGmtej8SGIw1zeImTaIwSpq8nlVXDYWIMr/GUHw==
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/@keystone-6/auth/-/auth-7.0.1.tgz#6de8fec876ebaef4efddf80c152ae3e76c4ffcf9"
+  integrity sha512-x0yn+ON7ge2SEo34lrpRFu+2medJeNxNrlMgdWYQIltPEx1aMNTHCXmsXiIlres3EgsujPK+u6TTCgNUZPrVTg==
   dependencies:
     "@babel/runtime" "^7.16.3"
     "@keystone-ui/button" "^7.0.2"
